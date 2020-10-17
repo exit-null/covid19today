@@ -1,0 +1,9 @@
+.default_scroll{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.default_scroll::-webkit-scrollbar-thumb{
+    background: black;
+}

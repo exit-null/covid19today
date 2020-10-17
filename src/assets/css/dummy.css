@@ -1,0 +1,12 @@
+.fader-appear{
+    opacity: 0;
+    z-index: 1;
+}
+.fader-appear-active{
+    opacity: 1;
+    transition: opacity 3000ms linear;
+}
+
+g[class$='creditgroup'] {
+    display:none !important;
+}
